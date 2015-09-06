@@ -8,16 +8,16 @@ import java.util.Map.Entry;
 
 public class SortMapByValue {
 
-    public Map<String, Double> sortByComparator(Map<String, Double> unsortMap, final boolean order)
+    public Map<Integer, Double> sortByComparator(Map<Integer, Double> unsortMap, final boolean order)
     {
 
-        List<Entry<String, Double>> list = new LinkedList<Entry<String, Double>>(unsortMap.entrySet());
+        List<Entry<Integer, Double>> list = new LinkedList<Entry<Integer, Double>>(unsortMap.entrySet());
 
         // Sorting the list based on values
-        Collections.sort(list, new Comparator<Entry<String, Double>>()
+        Collections.sort(list, new Comparator<Entry<Integer, Double>>()
         {
-            public int compare(Entry<String, Double> o1,
-                               Entry<String, Double> o2)
+            public int compare(Entry<Integer, Double> o1,
+                               Entry<Integer, Double> o2)
             {
                 if (order)
                 {
@@ -32,8 +32,8 @@ public class SortMapByValue {
         });
 
         // Maintaining insertion order with the help of LinkedList
-        Map<String, Double> sortedMap = new LinkedHashMap<String, Double>();
-        for (Entry<String, Double> entry : list)
+        Map<Integer, Double> sortedMap = new LinkedHashMap<Integer, Double>();
+        for (Entry<Integer, Double> entry : list)
         {
             sortedMap.put(entry.getKey(), entry.getValue());
         }
@@ -41,11 +41,19 @@ public class SortMapByValue {
         return sortedMap;
     }
 
-    public void printMap(Map<String, Double> map)
+    public void printMap(Map<Integer, Double> map)
     {
-        for (Entry<String, Double> entry : map.entrySet())
+        for (Entry<Integer, Double> entry : map.entrySet())
         {
             System.out.println("Key : " + entry.getKey() + " Value : "+ entry.getValue());
+
+//            if(entry.getKey()==4791) {
+//                System.out.println("Key : " + entry.getKey() + " Value : " + entry.getValue());
+//                return true;
+//            }else{
+//                return false;
+//            }
         }
+
     }
 }
