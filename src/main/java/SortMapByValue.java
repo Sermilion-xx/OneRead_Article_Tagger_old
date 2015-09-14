@@ -41,19 +41,11 @@ public class SortMapByValue {
         return sortedMap;
     }
 
-    public void printMap(Map<Integer, Double> map)
-    {
+    public void printMap(Map<Integer, Double> map){
         for (Entry<Integer, Double> entry : map.entrySet())
         {
             System.out.println("Key : " + entry.getKey() + " Value : "+ entry.getValue());
 
-//            if(entry.getKey()==4791) {
-//                System.out.println("Key : " + entry.getKey() + " Value : " + entry.getValue());
-//                return true;
-//            }else{
-//                return false;
-//            }
         }
-
     }
 }
