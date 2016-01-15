@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb19c929-6c7e-4486-bfd8-d0f7aa9410ec" name="Default" comment="" />
+    <ignored path="oneread_ml_2.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_TOOLBAR" value="true" />
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" />
+        <option name="myItemType" value="com.intellij.database.view.DbRootNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="PostgreSQL - oneread@oneread.io" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="oneread.public" />
+        <option name="myItemType" value="com.intellij.database.view.DbNodeDescriptor" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="oneread_ml_2" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Trainer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Trainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.06917476">
+              <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#709#710#0" expanded="false" />
+                <element signature="e#741#742#0" expanded="false" />
+                <element signature="e#3540#3541#0" expanded="false" />
+                <element signature="e#3576#3577#0" expanded="false" />
+                <element signature="e#3605#3606#0" expanded="false" />
+                <element signature="e#3634#3635#0" expanded="false" />
+                <marker date="1452839482000" expanded="true" signature="11107:11141" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Database.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Database.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+              <folding>
+                <element signature="n#!!doc" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <marker date="1443899843000" expanded="true" signature="1718:1758" placeholder="SELECT * FRO..tag..." />
+                <marker date="1443899843000" expanded="true" signature="1817:1834" placeholder="SELECT * FRO..tag..." />
+                <marker date="1443899843000" expanded="true" signature="2752:2797" placeholder="SELECT * FRO..tag_temp..." />
+                <marker date="1443899843000" expanded="true" signature="2856:2878" placeholder="SELECT * FRO..tag_temp..." />
+                <marker date="1443899843000" expanded="true" signature="3730:3747" placeholder="SELECT * FRO..tag..." />
+                <marker date="1443899843000" expanded="true" signature="4254:4293" placeholder="SELECT id FR..tag..." />
+                <marker date="1443899843000" expanded="true" signature="4975:5191" placeholder="SELECT * FRO..article..." />
+                <marker date="1443899843000" expanded="true" signature="6088:6312" placeholder="SELECT * FRO..article..." />
+                <marker date="1443899843000" expanded="true" signature="7148:7292" placeholder="SELECT count..article..." />
+                <marker date="1443899843000" expanded="true" signature="7835:7948" placeholder="SELECT * FRO..article..." />
+                <marker date="1443899843000" expanded="true" signature="8115:8228" placeholder="SELECT * FRO..article..." />
+                <marker date="1443899843000" expanded="true" signature="8560:8667" placeholder="INSERT INTO ..." />
+                <marker date="1443899843000" expanded="true" signature="8583:8667" placeholder="SELECT 'miss..EXISTS..." />
+                <marker date="1443899843000" expanded="true" signature="8618:8666" placeholder="SELECT 'miss..tag..." />
+                <marker date="1443899843000" expanded="true" signature="8881:8988" placeholder="INSERT INTO ..." />
+                <marker date="1443899843000" expanded="true" signature="8904:8988" placeholder="SELECT 'miss..EXISTS..." />
+                <marker date="1443899843000" expanded="true" signature="8939:8987" placeholder="SELECT 'miss..tag..." />
+                <marker date="1443899843000" expanded="true" signature="9349:9735" placeholder="WITH new_val..." />
+                <marker date="1443899843000" expanded="true" signature="9602:9735" placeholder="SELECT name,..new_values..." />
+                <marker date="1443899843000" expanded="true" signature="9679:9734" placeholder="SELECT 1 FRO..upsert..." />
+                <marker date="1443899843000" expanded="true" signature="11225:11609" placeholder="WITH new_val..." />
+                <marker date="1443899843000" expanded="true" signature="11476:11609" placeholder="SELECT name,..new_values..." />
+                <marker date="1443899843000" expanded="true" signature="11553:11608" placeholder="SELECT 1 FRO..upsert..." />
+                <marker date="1443899843000" expanded="true" signature="12716:12736" placeholder="DELETE FROM ..." />
+                <marker date="1443899843000" expanded="true" signature="12812:12836" placeholder="DELETE FROM ..." />
+                <marker date="1443899843000" expanded="true" signature="13724:13858" placeholder="INSERT INTO ..." />
+                <marker date="1443899843000" expanded="true" signature="15278:15341" placeholder="SELECT centr..tag_centroid..." />
+                <marker date="1443899843000" expanded="true" signature="16416:16442" placeholder="SELECT * FRO..tag_centroid..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SortMapByValue.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SortMapByValue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/db.java" />
+        <option value="$PROJECT_DIR$/src/Database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LangDetect.java" />
+        <option value="$PROJECT_DIR$/src/main/java/LangDetector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/InputTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/TrainerInt.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/PostgreSQLTextArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/PostgreSQLDoubleArray.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MainTagTrainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/CrossValidation.java" />
+        <option value="$PROJECT_DIR$/english_dict.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/TrainerFacade.java" />
+        <option value="$PROJECT_DIR$/src/main/java/calculate.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Database.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SortMapByValue.java" />
+        <option value="$PROJECT_DIR$/src/main/java/main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Trainer.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Bundled (Maven 3)" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="oneread_ml_2" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="oneread_ml_2" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="oneread_ml_2" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Lifecycle" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$LifecycleNode" />
+        </PATH_ELEMENT>
+      </PATH>
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneread_ml_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneread_ml_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneread_ml_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneread_ml_2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oneread_ml_2 2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="oneread_ml_2" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="last.edited.regexp" value="-dsfdsfds&amp;^%" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test">
+    <configuration default="false" name="main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="-Xms2048M -Xmx4098M" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="oneread_ml_2" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Profile " />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Profile " />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Test" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" value="" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="oneread_ml_2" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Profile " />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="SELECTED_CLOUD_DEVICE_CONFIGURATION_ID" value="0" />
+      <option name="SELECTED_CLOUD_DEVICE_PROJECT_ID" value="" />
+      <option name="IS_VALID_CLOUD_MATRIX_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_MATRIX_SELECTION_ERROR" value="" />
+      <option name="IS_VALID_CLOUD_DEVICE_SELECTION" value="false" />
+      <option name="INVALID_CLOUD_DEVICE_SELECTION_ERROR" value="" />
+      <option name="CLOUD_DEVICE_SERIAL_NUMBER" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/lib/common-lang3.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Test" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Test" />
+        <item index="1" class="java.lang.String" itemvalue="Application.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eb19c929-6c7e-4486-bfd8-d0f7aa9410ec" name="Default" comment="" />
+      <created>1435577621374</created>
+      <option name="number" value="Default" />
+      <updated>1435577621374</updated>
+      <workItem from="1435577625595" duration="8008000" />
+      <workItem from="1435680795965" duration="2092000" />
+      <workItem from="1435696646899" duration="11589000" />
+      <workItem from="1436033441154" duration="29754000" />
+      <workItem from="1436428497985" duration="19993000" />
+      <workItem from="1436944019806" duration="18353000" />
+      <workItem from="1437220972974" duration="18756000" />
+      <workItem from="1437552844533" duration="20201000" />
+      <workItem from="1437978956780" duration="17052000" />
+      <workItem from="1438153710464" duration="58580000" />
+      <workItem from="1438756242085" duration="995000" />
+      <workItem from="1438854322658" duration="6376000" />
+      <workItem from="1438944687048" duration="204000" />
+      <workItem from="1438959698700" duration="2275000" />
+      <workItem from="1439031951485" duration="504000" />
+      <workItem from="1439398740634" duration="20475000" />
+      <workItem from="1439797852177" duration="1117000" />
+      <workItem from="1439799193824" duration="5687000" />
+      <workItem from="1439915460128" duration="4484000" />
+      <workItem from="1440090020214" duration="7707000" />
+      <workItem from="1440291655583" duration="69000" />
+      <workItem from="1440409725430" duration="21707000" />
+      <workItem from="1440574349428" duration="33903000" />
+      <workItem from="1440768236158" duration="14116000" />
+      <workItem from="1440925662541" duration="996000" />
+      <workItem from="1440927781487" duration="16025000" />
+      <workItem from="1441094612459" duration="417000" />
+      <workItem from="1441130494617" duration="1578000" />
+      <workItem from="1441132964037" duration="7556000" />
+      <workItem from="1441199714891" duration="120000" />
+      <workItem from="1441224086100" duration="259000" />
+      <workItem from="1441266655709" duration="63000" />
+      <workItem from="1441377016471" duration="180000" />
+      <workItem from="1441443854034" duration="8023000" />
+      <workItem from="1441501263132" duration="93000" />
+      <workItem from="1441521614148" duration="2456000" />
+      <workItem from="1441536510310" duration="11816000" />
+      <workItem from="1442067638696" duration="252000" />
+      <workItem from="1442129514885" duration="21256000" />
+      <workItem from="1442250891960" duration="10627000" />
+      <workItem from="1442386456005" duration="16043000" />
+      <workItem from="1442514767098" duration="132000" />
+      <workItem from="1442515059094" duration="399000" />
+      <workItem from="1442563049169" duration="1535000" />
+      <workItem from="1442595687936" duration="13319000" />
+      <workItem from="1442731475720" duration="3661000" />
+      <workItem from="1442817534336" duration="5002000" />
+      <workItem from="1442903905567" duration="8785000" />
+      <workItem from="1443019810205" duration="1754000" />
+      <workItem from="1443032724772" duration="4201000" />
+      <workItem from="1443432820331" duration="2749000" />
+      <workItem from="1443601240366" duration="3945000" />
+      <workItem from="1444029728922" duration="279000" />
+      <workItem from="1444129615737" duration="58000" />
+      <workItem from="1444149071905" duration="723000" />
+      <workItem from="1444930853499" duration="77000" />
+      <workItem from="1444941817627" duration="598000" />
+      <workItem from="1444957263689" duration="57000" />
+      <workItem from="1444977612339" duration="712000" />
+      <workItem from="1445715889877" duration="211000" />
+      <workItem from="1445757718737" duration="4527000" />
+      <workItem from="1445874095035" duration="17000" />
+      <workItem from="1446282982977" duration="235000" />
+      <workItem from="1446303442121" duration="3308000" />
+      <workItem from="1446565303278" duration="3260000" />
+      <workItem from="1446772504620" duration="186000" />
+      <workItem from="1446825465959" duration="41000" />
+      <workItem from="1449581265463" duration="210000" />
+      <workItem from="1449656795427" duration="335000" />
+      <workItem from="1452837006273" duration="412000" />
+      <workItem from="1452839014580" duration="2000" />
+    </task>
+    <task id="LOCAL-00001" summary="All works">
+      <created>1438509597079</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1438509597079</updated>
+    </task>
+    <task id="LOCAL-00002" summary="For any memory size">
+      <created>1441569546108</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1441569546108</updated>
+    </task>
+    <task id="LOCAL-00003" summary="For any memory size">
+      <created>1442208562540</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1442208562540</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Algorithm is correct">
+      <created>1442402917641</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1442402917641</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Algorithm is correct">
+      <created>1452838943708</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1452838943708</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Algorithm is correct">
+      <created>1452839529428</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1452839529428</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="482487000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261105" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16041666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22532189" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3248848" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32891566" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3235639" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34935522" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="All works" />
+    <MESSAGE value="For any memory size" />
+    <MESSAGE value="Algorithm is correct" />
+    <option name="LAST_COMMIT_MESSAGE" value="Algorithm is correct" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>61</line>
+          <properties />
+          <option name="timeStamp" value="1263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Database.java</url>
+          <line>353</line>
+          <properties />
+          <option name="timeStamp" value="1321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/main.java</url>
+          <line>170</line>
+          <properties />
+          <option name="timeStamp" value="1370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>140</line>
+          <properties />
+          <option name="timeStamp" value="1383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>139</line>
+          <properties />
+          <option name="timeStamp" value="1384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="1390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>129</line>
+          <properties />
+          <option name="timeStamp" value="1391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="1393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>65</line>
+          <properties />
+          <option name="timeStamp" value="1440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>66</line>
+          <properties />
+          <option name="timeStamp" value="1441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>88</line>
+          <properties />
+          <option name="timeStamp" value="1442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>87</line>
+          <properties />
+          <option name="timeStamp" value="1443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>86</line>
+          <properties />
+          <option name="timeStamp" value="1444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>71</line>
+          <properties />
+          <option name="timeStamp" value="1445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>67</line>
+          <properties />
+          <option name="timeStamp" value="1446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="1447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="1448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>72</line>
+          <properties />
+          <option name="timeStamp" value="1449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="1450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>74</line>
+          <properties />
+          <option name="timeStamp" value="1451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Test.java</url>
+          <line>141</line>
+          <properties />
+          <option name="timeStamp" value="1452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/SortMapByValue.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="1467" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="1468" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#3540#3541#0" expanded="false" />
+            <element signature="e#3576#3577#0" expanded="false" />
+            <element signature="e#3605#3606#0" expanded="false" />
+            <element signature="e#3634#3635#0" expanded="false" />
+            <marker date="1452839482000" expanded="true" signature="11107:11141" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="32" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1443899843000" expanded="true" signature="1718:1758" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="1817:1834" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="2752:2797" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="2856:2878" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="3730:3747" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4254:4293" placeholder="SELECT id FR..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4975:5191" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="6088:6312" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="7148:7292" placeholder="SELECT count..article..." />
+            <marker date="1443899843000" expanded="true" signature="7835:7948" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8115:8228" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8560:8667" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8583:8667" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8618:8666" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="8881:8988" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8904:8988" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8939:8987" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="9349:9735" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="9602:9735" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="9679:9734" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="11225:11609" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="11476:11609" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="11553:11608" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="12716:12736" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="12812:12836" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="13724:13858" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="15278:15341" placeholder="SELECT centr..tag_centroid..." />
+            <marker date="1443899843000" expanded="true" signature="16416:16442" placeholder="SELECT * FRO..tag_centroid..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#3540#3541#0" expanded="false" />
+            <element signature="e#3576#3577#0" expanded="false" />
+            <element signature="e#3605#3606#0" expanded="false" />
+            <element signature="e#3634#3635#0" expanded="false" />
+            <marker date="1452839482000" expanded="true" signature="11107:11141" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/file-utils.jar!/com/codingcatholic/util/CustomProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="49" selection-start-line="72" selection-start-column="49" selection-end-line="72" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1443899843000" expanded="true" signature="1718:1758" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="1817:1834" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="2752:2797" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="2856:2878" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="3730:3747" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4254:4293" placeholder="SELECT id FR..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4975:5191" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="6088:6312" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="7148:7292" placeholder="SELECT count..article..." />
+            <marker date="1443899843000" expanded="true" signature="7835:7948" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8115:8228" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8560:8667" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8583:8667" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8618:8666" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="8881:8988" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8904:8988" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8939:8987" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="9349:9735" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="9602:9735" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="9679:9734" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="11225:11609" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="11476:11609" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="11553:11608" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="12716:12736" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="12812:12836" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="13724:13858" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="15278:15341" placeholder="SELECT centr..tag_centroid..." />
+            <marker date="1443899843000" expanded="true" signature="16416:16442" placeholder="SELECT * FRO..tag_centroid..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#3540#3541#0" expanded="false" />
+            <element signature="e#3576#3577#0" expanded="false" />
+            <element signature="e#3605#3606#0" expanded="false" />
+            <element signature="e#3634#3635#0" expanded="false" />
+            <marker date="1452839482000" expanded="true" signature="11107:11141" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1443899843000" expanded="true" signature="1718:1758" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="1817:1834" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="2752:2797" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="2856:2878" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="3730:3747" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4254:4293" placeholder="SELECT id FR..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4975:5191" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="6088:6312" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="7148:7292" placeholder="SELECT count..article..." />
+            <marker date="1443899843000" expanded="true" signature="7835:7948" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8115:8228" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8560:8667" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8583:8667" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8618:8666" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="8881:8988" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8904:8988" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8939:8987" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="9349:9735" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="9602:9735" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="9679:9734" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="11225:11609" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="11476:11609" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="11553:11608" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="12716:12736" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="12812:12836" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="13724:13858" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="15278:15341" placeholder="SELECT centr..tag_centroid..." />
+            <marker date="1443899843000" expanded="true" signature="16416:16442" placeholder="SELECT * FRO..tag_centroid..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="81" selection-start-line="19" selection-start-column="81" selection-end-line="19" selection-end-column="81" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#3540#3541#0" expanded="false" />
+            <element signature="e#3576#3577#0" expanded="false" />
+            <element signature="e#3605#3606#0" expanded="false" />
+            <element signature="e#3634#3635#0" expanded="false" />
+            <marker date="1452839482000" expanded="true" signature="11107:11141" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1443899843000" expanded="true" signature="1718:1758" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="1817:1834" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="2752:2797" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="2856:2878" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="3730:3747" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4254:4293" placeholder="SELECT id FR..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4975:5191" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="6088:6312" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="7148:7292" placeholder="SELECT count..article..." />
+            <marker date="1443899843000" expanded="true" signature="7835:7948" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8115:8228" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8560:8667" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8583:8667" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8618:8666" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="8881:8988" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8904:8988" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8939:8987" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="9349:9735" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="9602:9735" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="9679:9734" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="11225:11609" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="11476:11609" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="11553:11608" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="12716:12736" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="12812:12836" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="13724:13858" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="15278:15341" placeholder="SELECT centr..tag_centroid..." />
+            <marker date="1443899843000" expanded="true" signature="16416:16442" placeholder="SELECT * FRO..tag_centroid..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/english_stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.2976878">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/russian_stopwords.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="300" column="3" selection-start-line="300" selection-start-column="2" selection-end-line="300" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/file-utils.jar!/com/codingcatholic/util/CustomProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2203898">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-math3-3.5.jar!/org/apache/commons/math3/linear/MatrixUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6">
+          <caret line="49" column="13" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oneread_ml_2.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/jsonic-1.2.0.jar!/net/arnx/jsonic/JSON.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33270678">
+          <caret line="1587" column="0" selection-start-line="1587" selection-start-column="0" selection-end-line="1587" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/PostgreSQLDoubleArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="20" selection-start-line="74" selection-start-column="20" selection-end-line="74" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/postgresql-9.4-1201.jdbc4.jar!/org/postgresql/core/VisibleBufferedInputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34719712">
+          <caret line="46" column="20" selection-start-line="46" selection-start-column="20" selection-end-line="46" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/english_dict.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="235886" column="0" selection-start-line="235886" selection-start-column="0" selection-end-line="235886" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/oneread_ml_2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6660306">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33447686">
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0010512">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0009945">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37375414">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0010608">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011336">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011237">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4458042">
+          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011157">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41958043">
+          <caret line="16" column="30" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0010968">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36713287">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0010888">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3409091">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0010610">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28846154">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011646">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011651">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.5">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011695">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.0">
+          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011697">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.0">
+          <caret line="26" column="28" selection-start-line="26" selection-start-column="28" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011805">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011820">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.0">
+          <caret line="28" column="24" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0011909">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="31" selection-start-line="29" selection-start-column="31" selection-end-line="29" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/alum_test/0012875">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/LangDetector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.10428737">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_51.jdk/Contents/Home/src.zip!/java/io/PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33283582">
+          <caret line="803" column="16" selection-start-line="803" selection-start-column="16" selection-end-line="803" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Database.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <marker date="1443899843000" expanded="true" signature="1718:1758" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="1817:1834" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="2752:2797" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="2856:2878" placeholder="SELECT * FRO..tag_temp..." />
+            <marker date="1443899843000" expanded="true" signature="3730:3747" placeholder="SELECT * FRO..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4254:4293" placeholder="SELECT id FR..tag..." />
+            <marker date="1443899843000" expanded="true" signature="4975:5191" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="6088:6312" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="7148:7292" placeholder="SELECT count..article..." />
+            <marker date="1443899843000" expanded="true" signature="7835:7948" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8115:8228" placeholder="SELECT * FRO..article..." />
+            <marker date="1443899843000" expanded="true" signature="8560:8667" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8583:8667" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8618:8666" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="8881:8988" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="8904:8988" placeholder="SELECT 'miss..EXISTS..." />
+            <marker date="1443899843000" expanded="true" signature="8939:8987" placeholder="SELECT 'miss..tag..." />
+            <marker date="1443899843000" expanded="true" signature="9349:9735" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="9602:9735" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="9679:9734" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="11225:11609" placeholder="WITH new_val..." />
+            <marker date="1443899843000" expanded="true" signature="11476:11609" placeholder="SELECT name,..new_values..." />
+            <marker date="1443899843000" expanded="true" signature="11553:11608" placeholder="SELECT 1 FRO..upsert..." />
+            <marker date="1443899843000" expanded="true" signature="12716:12736" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="12812:12836" placeholder="DELETE FROM ..." />
+            <marker date="1443899843000" expanded="true" signature="13724:13858" placeholder="INSERT INTO ..." />
+            <marker date="1443899843000" expanded="true" signature="15278:15341" placeholder="SELECT centr..tag_centroid..." />
+            <marker date="1443899843000" expanded="true" signature="16416:16442" placeholder="SELECT * FRO..tag_centroid..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SortMapByValue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="11" selection-start-line="25" selection-start-column="11" selection-end-line="25" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Trainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06917476">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#709#710#0" expanded="false" />
+            <element signature="e#741#742#0" expanded="false" />
+            <element signature="e#3540#3541#0" expanded="false" />
+            <element signature="e#3576#3577#0" expanded="false" />
+            <element signature="e#3605#3606#0" expanded="false" />
+            <element signature="e#3634#3635#0" expanded="false" />
+            <marker date="1452839482000" expanded="true" signature="11107:11141" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>oneread_ml_2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>file-utils</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

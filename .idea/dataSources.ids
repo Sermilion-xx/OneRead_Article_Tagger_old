@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="PostgreSQL - oneread@oneread.io" uuid="2f1b5a8d-a36c-469d-8263-5220f1da29d2">
+    <database-info product="PostgreSQL" version="9.4.1" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4 JDBC4 (build 1201)">
+      <identifier-quote-string>&quot;</identifier-quote-string>
+    </database-info>
+    <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact"/>
+    <schema name="public" catalog="oneread"/>
+    <table name="article" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnYXJ0aWNsZV9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
+      <column name="title" sqlType="varchar" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="description" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="url" sqlType="varchar" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <column name="image" sqlType="varchar" precision="2000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="rating" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="facebook" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="citation" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="created_at" sqlType="timestamptz" precision="35" scale="6" nullable="true" jdbcType="93"/>
+      <column name="updated_at" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93" def="bm93KCk="/>
+      <column name="blog_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="likes" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <primary-key name="article_pkey" columns="id"/>
+      <foreign-key name="article_blog_id_fkey" columns="blog_id" ref-table="blog" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="article_tags_article_id_fkey" table="article_tags" schema="public" catalog="oneread" columns="article_id"/>
+      <exported-key name="discussion_article_id_fkey" table="discussion" schema="public" catalog="oneread" columns="article_id"/>
+      <exported-key name="saved_articles_article_id_fkey" table="saved_articles" schema="public" catalog="oneread" columns="article_id"/>
+      <index name="article_url_key" unique="true" columns="url"/>
+    </table>
+    <table name="article_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="article_tags" schema="public" catalog="oneread" type="TABLE">
+      <column name="article_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tag_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="origin" sqlType="bool" precision="1" scale="0" nullable="true" jdbcType="-7"/>
+      <column name="count" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <primary-key name="article_tags_pkey" columns="article_id,tag_id"/>
+      <foreign-key name="article_tags_article_id_fkey" columns="article_id" ref-table="article" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="article_tags_tag_id_fkey" columns="tag_id" ref-table="tag" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="blog" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnYmxvZ19pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
+      <column name="title" sqlType="varchar" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="feed" sqlType="varchar" precision="2000" scale="0" nullable="false" jdbcType="12"/>
+      <column name="favicon" sqlType="varchar" precision="40000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="lang" sqlType="varchar" precision="30" scale="0" nullable="true" jdbcType="12"/>
+      <column name="query" sqlType="varchar" precision="1000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="domain" sqlType="varchar" precision="1000" scale="0" nullable="false" jdbcType="12"/>
+      <column name="path" sqlType="varchar" precision="1000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="link" sqlType="varchar" precision="1000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="tags" sqlType="varchar" precision="1000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="status" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="modified" sqlType="varchar" precision="1000" scale="0" nullable="true" jdbcType="12"/>
+      <column name="etag" sqlType="varchar" precision="1000" scale="0" nullable="true" jdbcType="12"/>
+      <primary-key name="blog_pkey" columns="id"/>
+      <exported-key name="article_blog_id_fkey" table="article" schema="public" catalog="oneread" columns="blog_id"/>
+      <exported-key name="user_blogs_blog_id_fkey" table="user_blogs" schema="public" catalog="oneread" columns="blog_id"/>
+      <index name="blog_feed_key" unique="true" columns="feed"/>
+    </table>
+    <table name="blog_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="discussion" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnZGlzY3Vzc2lvbl9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
+      <column name="article_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="count" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="created_at" sqlType="timestamptz" precision="35" scale="6" nullable="true" jdbcType="93"/>
+      <primary-key name="discussion_pkey" columns="id"/>
+      <foreign-key name="discussion_article_id_fkey" columns="article_id" ref-table="article" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="discussion_user_id_fkey" columns="user_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <exported-key name="discussion_members_discussion_id_fkey" table="discussion_members" schema="public" catalog="oneread" columns="discussion_id"/>
+      <exported-key name="discussion_messages_discussion_id_fkey" table="discussion_messages" schema="public" catalog="oneread" columns="discussion_id"/>
+    </table>
+    <table name="discussion_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="discussion_members" schema="public" catalog="oneread" type="TABLE">
+      <column name="discussion_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <primary-key name="discussion_members_pkey" columns="discussion_id,user_id"/>
+      <foreign-key name="discussion_members_discussion_id_fkey" columns="discussion_id" ref-table="discussion" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="discussion_members_user_id_fkey" columns="user_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="discussion_messages" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnZGlzY3Vzc2lvbl9tZXNzYWdlc19pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
+      <column name="discussion_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="message" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="created_at" sqlType="timestamptz" precision="35" scale="6" nullable="true" jdbcType="93"/>
+      <primary-key name="discussion_messages_pkey" columns="id"/>
+      <foreign-key name="discussion_messages_discussion_id_fkey" columns="discussion_id" ref-table="discussion" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="discussion_messages_user_id_fkey" columns="user_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="discussion_messages_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="error_log" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnZXJyb3JfbG9nX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
+      <column name="error" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="resource" sqlType="varchar" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <column name="user" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="date" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
+      <primary-key name="error_log_pkey" columns="id"/>
+    </table>
+    <table name="error_log_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="facebook_log" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgnZmFjZWJvb2tfbG9nX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
+      <column name="error" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="seconds" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="requested" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="updated" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="date" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
+      <primary-key name="facebook_log_pkey" columns="id"/>
+    </table>
+    <table name="facebook_log_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="ml_all_terms" schema="public" catalog="oneread" type="TABLE" remarks="Q29udGFpbnMgYWxsIHBvc3NpYmxlIHRlcm1zIGZvciBtYWNoaW5lIGxlYXJub2luZw=="/>
+    <table name="rss_logs" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgncnNzX2xvZ3NfaWRfc2VxJzo6cmVnY2xhc3Mp" autoIncrement="true"/>
+      <column name="errors" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="new_tags" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="new_articles" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="new_articles_saved" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="readability" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="seconds" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="date" sqlType="timestamp" precision="29" scale="6" nullable="true" jdbcType="93"/>
+      <primary-key name="rss_logs_pkey" columns="id"/>
+    </table>
+    <table name="rss_logs_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="saved_articles" schema="public" catalog="oneread" type="TABLE">
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="article_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tag_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="archived" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="liked" sqlType="bool" precision="1" scale="0" nullable="true" jdbcType="-7"/>
+      <column name="date" sqlType="timestamptz" precision="35" scale="6" nullable="true" jdbcType="93" def="bm93KCk="/>
+      <primary-key name="saved_articles_pkey" columns="user_id,article_id"/>
+      <foreign-key name="saved_articles_article_id_fkey" columns="article_id" ref-table="article" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="saved_articles_tag_id_fkey" columns="tag_id" ref-table="tag" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="saved_articles_user_id_fkey" columns="user_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="tag" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgndGFnX2lkX3NlcSc6OnJlZ2NsYXNzKQ==" autoIncrement="true"/>
+      <column name="name" sqlType="varchar" precision="255" scale="0" nullable="false" jdbcType="12"/>
+      <primary-key name="tag_pkey" columns="id"/>
+      <exported-key name="article_tags_tag_id_fkey" table="article_tags" schema="public" catalog="oneread" columns="tag_id"/>
+      <exported-key name="saved_articles_tag_id_fkey" table="saved_articles" schema="public" catalog="oneread" columns="tag_id"/>
+      <exported-key name="tag_to_tag_tag1_id_fkey" table="tag_to_tag" schema="public" catalog="oneread" columns="tag1_id"/>
+      <exported-key name="tag_to_tag_tag2_id_fkey" table="tag_to_tag" schema="public" catalog="oneread" columns="tag2_id"/>
+      <exported-key name="user_tags_tag_id_fkey" table="user_tags" schema="public" catalog="oneread" columns="tag_id"/>
+      <index name="tag_name_key" unique="true" columns="name"/>
+    </table>
+    <table name="tag_centroid" schema="public" catalog="oneread" type="TABLE">
+      <column name="tag" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="centroid" sqlType="text" precision="2147483647" scale="0" nullable="true" jdbcType="12"/>
+      <column name="main" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <column name="divisor" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4" def="MA=="/>
+      <primary-key name="tag_centroid_pkey" columns="tag"/>
+    </table>
+    <table name="tag_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="tag_to_tag" schema="public" catalog="oneread" type="TABLE">
+      <column name="tag1_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tag2_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tfw" sqlType="float8" precision="17" scale="17" nullable="true" jdbcType="8"/>
+      <primary-key name="tag_to_tag_pkey" columns="tag1_id,tag2_id"/>
+      <foreign-key name="tag_to_tag_tag1_id_fkey" columns="tag1_id" ref-table="tag" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="tag_to_tag_tag2_id_fkey" columns="tag2_id" ref-table="tag" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="user" schema="public" catalog="oneread" type="TABLE">
+      <column name="id" sqlType="serial" precision="10" scale="0" nullable="false" jdbcType="4" def="bmV4dHZhbCgndXNlcl9pZF9zZXEnOjpyZWdjbGFzcyk=" autoIncrement="true"/>
+      <column name="username" sqlType="varchar" precision="25" scale="0" nullable="false" jdbcType="12"/>
+      <column name="email" sqlType="varchar" precision="120" scale="0" nullable="false" jdbcType="12"/>
+      <column name="password" sqlType="varchar" precision="80" scale="0" nullable="false" jdbcType="12"/>
+      <column name="firstname" sqlType="varchar" precision="80" scale="0" nullable="false" jdbcType="12"/>
+      <column name="lastname" sqlType="varchar" precision="80" scale="0" nullable="false" jdbcType="12"/>
+      <column name="counter" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="privacy_tags" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="privacy_blogs" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="privacy_profile" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="avatar" sqlType="varchar" precision="256" scale="0" nullable="true" jdbcType="12" def="J2RlZmF1bHQuanBnJw=="/>
+      <primary-key name="user_pkey" columns="id"/>
+      <exported-key name="discussion_user_id_fkey" table="discussion" schema="public" catalog="oneread" columns="user_id"/>
+      <exported-key name="discussion_members_user_id_fkey" table="discussion_members" schema="public" catalog="oneread" columns="user_id"/>
+      <exported-key name="discussion_messages_user_id_fkey" table="discussion_messages" schema="public" catalog="oneread" columns="user_id"/>
+      <exported-key name="saved_articles_user_id_fkey" table="saved_articles" schema="public" catalog="oneread" columns="user_id"/>
+      <exported-key name="user_blogs_user_id_fkey" table="user_blogs" schema="public" catalog="oneread" columns="user_id"/>
+      <exported-key name="user_friends_friend_id_fkey" table="user_friends" schema="public" catalog="oneread" columns="friend_id"/>
+      <exported-key name="user_friends_user_id_fkey" table="user_friends" schema="public" catalog="oneread" columns="user_id"/>
+      <exported-key name="user_tags_user_id_fkey" table="user_tags" schema="public" catalog="oneread" columns="user_id"/>
+      <index name="user_email_key" unique="true" columns="email"/>
+      <index name="user_username_key" unique="true" columns="username"/>
+      <index name="username_idx" unique="false" columns="username"/>
+    </table>
+    <table name="user_blogs" schema="public" catalog="oneread" type="TABLE">
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="blog_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="ff" sqlType="float8" precision="17" scale="17" nullable="false" jdbcType="8" def="MDo6ZG91YmxlIHByZWNpc2lvbg=="/>
+      <column name="title" sqlType="varchar" precision="1000" scale="0" nullable="false" jdbcType="12"/>
+      <column name="velocity" sqlType="float8" precision="17" scale="17" nullable="false" jdbcType="8"/>
+      <column name="frequency" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4" def="Mg=="/>
+      <primary-key name="user_blogs_pkey" columns="user_id,blog_id"/>
+      <foreign-key name="user_blogs_blog_id_fkey" columns="blog_id" ref-table="blog" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="user_blogs_user_id_fkey" columns="user_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="user_friends" schema="public" catalog="oneread" type="TABLE">
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="friend_id" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <column name="status" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4"/>
+      <foreign-key name="user_friends_friend_id_fkey" columns="friend_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="user_friends_user_id_fkey" columns="user_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+    <table name="user_id_seq" schema="public" catalog="oneread" type="SEQUENCE">
+      <column name="sequence_name" sqlType="name" precision="2147483647" scale="0" nullable="false" jdbcType="12"/>
+      <column name="last_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="start_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="increment_by" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="max_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="min_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="cache_value" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="log_cnt" sqlType="int8" precision="19" scale="0" nullable="false" jdbcType="-5"/>
+      <column name="is_cycled" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+      <column name="is_called" sqlType="bool" precision="1" scale="0" nullable="false" jdbcType="-7"/>
+    </table>
+    <table name="user_tags" schema="public" catalog="oneread" type="TABLE">
+      <column name="user_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="tag_id" sqlType="int4" precision="10" scale="0" nullable="false" jdbcType="4"/>
+      <column name="ff" sqlType="float8" precision="17" scale="17" nullable="false" jdbcType="8" def="MDo6ZG91YmxlIHByZWNpc2lvbg=="/>
+      <column name="frequency" sqlType="int4" precision="10" scale="0" nullable="true" jdbcType="4" def="Mg=="/>
+      <primary-key name="user_tags_pkey" columns="user_id,tag_id"/>
+      <foreign-key name="user_tags_tag_id_fkey" columns="tag_id" ref-table="tag" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+      <foreign-key name="user_tags_user_id_fkey" columns="user_id" ref-table="user" ref-schema="public" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="2"/>
+    </table>
+  </data-source>
+</component>
