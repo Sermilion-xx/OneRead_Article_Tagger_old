@@ -9,13 +9,13 @@ import java.util.*;
 /**
  * Created by Sermilion on 13/09/2015.
  * OneRead Inc. 2015
- * Ibragim Gapuraev and Ruslan Batukaev
+ * Ibragim Gapuraev
  */
 public class Test {
     private static boolean TRAIN = false;
     static Database db = new Database();
 
-    public static void addWords(String dir, Trainer tr){
+    public static void addWords(String dir, Trainer tr, String lang){
         final File folder = new File(dir);
         ArrayList<String> articlesForTag = new ArrayList<>();
         try {
@@ -24,14 +24,15 @@ public class Test {
             articlesForTag= null;
             ArrayList<Pair> allTermsForArticlesForTagNoStopwords = tr.removeStopwords(termsForTag);
             termsForTag=null;
-            db.addWords(allTermsForArticlesForTagNoStopwords);
+            db.addWords(allTermsForArticlesForTagNoStopwords, "tag_temp");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
     }
 
     public static void main(String args[]){
-        ArrayList<String >allTerms = db.getAllTerms("en");
+        String sessionLang = "en";
+        ArrayList<String >allTerms = db.getAllTerms(sessionLang);
         HashMap<Integer, double[]> db_centroids = db.getAllCentroids();
 
         LangDetector ld = null;
@@ -39,18 +40,18 @@ public class Test {
             ld = new LangDetector();
 
         if(TRAIN){
+            db.copyWordsFromTemp(sessionLang);
             Trainer tr = new Trainer(ld);
             String[] trainingFolds = {"alum","coconut","coffee","cpu","fuel","housing","lead","potato","rice","sugar","tea","wheat"};
             for(String label:trainingFolds){
-                addWords(label, tr);
+                addWords(label, tr, sessionLang);
             }
             for(String label:trainingFolds){
                 Trainer new_tag_trainer = null;
                 new_tag_trainer = new Trainer(label, allTerms, db, ld);
-                System.out.println("Centroid length: "+new_tag_trainer.getCentroid().length);
+//                System.out.println("Centroid length: "+new_tag_trainer.getCentroid().length);
                 new_tag_trainer=null;
             }
-
         }else{
 //            double[] q = {1.47,1,1,0,0,0};
 //            double[] a = {1,20,0,0,0.33,0.33,0.33};
@@ -62,36 +63,33 @@ public class Test {
 //            ArrayList<String> testArticlesAndIds = new ArrayList<>();
 //            testArticlesAndIds.add("Chinese Chinese Chinese Tokyo Japan");
             int classifyTrue = 0;
+//            ArrayList<Pair<Integer, String>> testArticlesAndIds = db.getArticlesAndIdsForTag(356, 100,"en", 0);
             for(int i =0; i<testArticlesAndIds.size();i++) {
                 String article = testArticlesAndIds.get(i);
-                Trainer input_trainer = new Trainer(article, "en",allTerms, db, ld);
-                int j=0;
-//                for(double a: input_trainer.getCentroid()){
-//                    if(a>0){
-//                        System.out.println("query centroids: "+a+" index "+j);
-//                    }
-//                    j++;
-//                }
-                HashMap<Integer, double[]> centroids = db_centroids;
-                Set set = centroids.entrySet();
-                Map<Integer, Double> tagCos = new HashMap<>();
-                for (Map.Entry<Integer, double[]> entry : centroids.entrySet()) {
-                    double cos = cosineSimilarity(entry.getValue(), input_trainer.getCentroid());
-                    tagCos.put(entry.getKey(), cos);
-                }
-                boolean ASC = true;
-                boolean DESC = false;
-                SortMapByValue sorter = new SortMapByValue();
-                Map<Integer, Double> sortedMapAsc = sorter.sortByComparator(tagCos, DESC);
+                if (article.length()>100) {
+                    Trainer input_trainer = new Trainer(article, sessionLang, allTerms, db, ld);
+                    HashMap<Integer, double[]> centroids = db_centroids;
+                    Map<Integer, Double> tagCos = new HashMap<>();
+                    for (Map.Entry<Integer, double[]> entry : centroids.entrySet()) {
+                        double cos = cosineSimilarity(entry.getValue(), input_trainer.getCentroid());
+                        tagCos.put(entry.getKey(), cos);
+                    }
+                    boolean ASC = true;
+                    boolean DESC = false;
+                    SortMapByValue sorter = new SortMapByValue();
+                    Map<Integer, Double> sortedMapAsc = sorter.sortByComparator(tagCos, DESC);
 
-                Set<Map.Entry<Integer, double[]>> entries = db_centroids.entrySet();
-                ArrayList tags = new ArrayList();
-                for(Map.Entry e: entries){
-                    tags.add(e.getKey());
+                    Set<Map.Entry<Integer, double[]>> entries = db_centroids.entrySet();
+                    ArrayList<Integer> tags = new ArrayList<Integer>();
+                    for (Map.Entry<Integer, double[]> e : entries) {
+                        tags.add(e.getKey());
+                    }
+                sorter.printMap(sortedMapAsc);
+                    System.out.println(article);
+                    System.out.println("########## -----------------");
+                }else{
+                    System.out.println("Article is too short!");
                 }
-//                sorter.printMap(sortedMapAsc);
-                System.out.println(article);
-                System.out.println("########## -----------------");
             }
         }
         } catch (LangDetectException e) {
@@ -103,13 +101,17 @@ public class Test {
     public static double cosineSimilarity(double[] vectorA, double[] vectorB) {
 //        for(int i=0;i<vectorA.length;i++){
 //            if(vectorA[i]>0){
-//                System.out.println("cosineSimilarity A: "+vectorA[i]);
+//                System.out.println("cosineSimilarity A: "+vectorA[i] +"index: "+i);
+//            }else{
+////                System.out.println("0");
 //            }
 //        }
 //
 //        for(int i=0;i<vectorB.length;i++){
 //            if(vectorB[i]>0){
-//                System.out.println("cosineSimilarity B: "+vectorB[i]);
+//                System.out.println("cosineSimilarity B: "+vectorB[i]  +"index: "+i);
+//            }else{
+////                System.out.println("00");
 //            }
 //        }
         double dotProduct = 0.0;
@@ -121,16 +123,23 @@ public class Test {
         }else{
             times = vectorA.length;
         }
-
+        double a = 0;
         for (int i = 0; i < times; i++) {
-            if(vectorA[i]>0 && vectorB[i]>0){
+//            if(vectorA[i]>0 && vectorB[i]>0){
 //                System.out.println("cosSim- a: "+vectorA[i]+" index:"+i+". b: "+vectorB[i] );
-            }
-            dotProduct += vectorA[i] * vectorB[i];
+//                a = vectorA[i] * vectorB[i];
+//                System.out.println("cosSim- a: "+vectorA[i]+" index:"+i+". b: "+vectorB[i] );
+//            }else if(vectorA[i]>0 && vectorB[i]>0){
+//                System.out.println("cosSim- a: "+vectorA[i]+" index:"+i+". b: "+vectorB[i] );
+//            }
+            a = vectorA[i] * vectorB[i];
+            dotProduct += a;
             normA += Math.pow(vectorA[i], 2);
             normB += Math.pow(vectorB[i], 2);
         }
-        return dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
+        double cos = dotProduct / (Math.sqrt(normA) * Math.sqrt(normB));
+//        System.out.println(cos);
+        return cos;
     }
 
 
